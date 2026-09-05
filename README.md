@@ -11,3 +11,7 @@ For a full walkthrough and explanation, refer to the video - https://youtu.be/5P
 Since torch has 2 versions (a CPU version and a GPU version) there are 2 options when installing.
 The CPU version is a simple `pip install torch`
 For the GPU version, please copy the install command generated using your customizable parameters - https://pytorch.org/get-started/locally/
+
+An `.env` file is also required, with the following content inside (fill in the correct values):
+- `EMAIL=YOUR_EMAIL`
+- `PASSWORD=YOUR_PASSWORD`
